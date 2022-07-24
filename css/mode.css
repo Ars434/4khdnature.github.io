@@ -22,8 +22,6 @@ h1, h2, h3, h4, h5, h6 {
 /*Container*/
 .container {
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
     background-color: #050561;
 }
 
@@ -55,14 +53,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-
 /*button*/
 .btn {
     position: relative;
     padding: 15px 35px;
     margin: 15px;
     background: #022732;
-    color: #fff;
+    color: #A9A9A9;
     text-decoration: none;
     letter-spacing: 1px;
     overflow: hidden;
@@ -84,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
     transition: 0.5s;
-
+    
     background: linear-gradient(90deg, transparent, #fff, transparent);
 }
 
@@ -96,10 +93,8 @@ h1, h2, h3, h4, h5, h6 {
     0%{border: 1,3 solid #272727;}
     10%{border: 1,2 solid #fff;}
     20%{border: 1,2 solid #fff9c0;}
-    100%{border: 1,3 solid #000; box-shadow: 2px 2px 15px #fff9c0;}
-
+    50%{border: 1,3 solid #000; box-shadow: 2px 2px 15px #fff9c0;}
 }
-
 
 /*Border*/
 .border_menu {
